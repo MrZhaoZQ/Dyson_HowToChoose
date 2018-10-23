@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="viewport" content="width=640,user-scalable=no" />
+    	<title>挑选我的戴森吸尘器</title>
+	    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	    <link rel="stylesheet" type="text/css" href="js/swiper/css/swiper-3.4.1.min.css"/>
+	    <script src="js/jquery.min.js"></script>
+	    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/wxshare.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/windowInit.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/imgPlayer.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/PxLoader.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/swiper/js/swiper-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script>
+		 	(function(a, e, f, g, b, c, d) {a.ClickiTrackerName = b;
+		 	a[b] = a[b] || function() {(a[b].queue = a[b].queue || []).push(arguments)};
+		 	a[b].start = +new Date; c = e.createElement(f); d = e.getElementsByTagName(f)[0];
+	 		c.async = 1; c.src = g; d.parentNode.insertBefore(c, d)
+		 	})(window, document, 'script', ('https:' == document.location.protocol ? 'https://stm-collect' : 'http://stm-cdn') + '.cn.miaozhen.com/clicki.min.js', 'stm_clicki');
+		 	stm_clicki('create', 'dc-2346', 'auto');
+		 	stm_clicki('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<!--bottom for iphoneX-->
+		<div class="Xbottom">
+			<img class="logoImg lazy-bk" data-bk="imgs/dyson.png"/>
+		</div>
+		
+		<!--loading page-->
+		<section id="loading" class="pageLoading" style="display: block;">
+		    <img id="loadImg" style="width: 100%; height: 100%;" src="imgs/loading.gif"/>
+		    <div class="m-abs i-hbar">0%</div>
+		    <div class="process"></div>
+		</section>
+		
+		<!--introduce animation page-->
+		<section class="sec intro_anima lazy-bk" data-bk="imgs/video/intro/1.jpg">
+			<canvas class="myImgs" id="intro"></canvas>
+			<!--<img id="skip" src="imgs/skip.jpg"/>-->
+		</section>
+		
+		<!--entrance page-->
+		<section class="sec pro_display hide">
+			<div class="pro_box lazy-bk" data-bk="imgs/introImg/intro-bg.jpg">
+				<img class="subtitle lazy-bk" data-bk="imgs/introImg/copyslogan.png"/>
+				<img class="proImg lazy-bk" data-bk="imgs/introImg/products.png"/>
+				<div id="testBtn" class="btn">立即开始</div>
+			</div>
+		</section>
+		
+		<!--test page-->
+		<section class="sec test hide">
+			<div class="testItem">
+				<div class="testCont">
+					<div class="quest_box">
+						<div class="quest">最贴近我日常生活的是：</div>
+						<img src="imgs/quest/single.png"/>
+					</div>
+					<ul class="answerlist one playlist">
+						<li>
+							<img data-bk="imgs/video/11/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/1_1.png" class="answer lazy-bk" />
+							<img class="markone tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/12/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/1_2.png" class="answer lazy-bk" />
+							<img class="markone tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/13/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/1_3.png" class="answer lazy-bk" />
+							<img class="markone tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/14/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/1_4.png" class="answer lazy-bk" />
+							<img class="markone tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/15/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/1_5.png" class="answer lazy-bk" />
+							<img class="markone tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<div class="btn next">下一步</div>
+				</div>
+			</div>
+			<div class="testItem hide">
+				<div class="testCont item">
+					<div class="quest_box">
+						<div class="quest">宝宝的日常状态是:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist two">
+						<li>
+							<img data-bk="imgs/quest/211.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_11.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/212.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_12.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/213.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_13.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/214.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_14.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我家主子是:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist two two_h">
+						<li>
+							<img data-bk="imgs/quest/221.jpg" class="imgs lazy-bk" />
+							<img src="imgs/quest/white2.png" class="layer"/>
+							<img data-bk="imgs/quest/2_21.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/222.jpg" class="imgs lazy-bk" />
+							<img src="imgs/quest/white2.png" class="layer"/>
+							<img data-bk="imgs/quest/2_22.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/223.jpg" class="imgs lazy-bk" />
+							<img src="imgs/quest/white2.png" class="layer"/>
+							<img data-bk="imgs/quest/2_23.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我为了缓解过敏:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist two">
+						<li>
+							<img data-bk="imgs/quest/231.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_31.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/232.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_32.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/233.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_33.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/234.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_34.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">最受不了别人在我车里:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist two">
+						<li>
+							<img data-bk="imgs/quest/241.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/black1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_41.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/242.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/black1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_42.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/243.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/black1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_43.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/244.png" class="imgs lazy-bk" />
+							<!--<img src="imgs/quest/white1.png" class="layer"/>-->
+							<img data-bk="imgs/quest/2_44.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我的家居装饰有:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist two">
+						<li>
+							<img data-bk="imgs/quest/251.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_51.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/252.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_52.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/253.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_53.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/254.png" class="imgs lazy-bk" />
+							<img src="imgs/quest/white1.png" class="layer"/>
+							<img data-bk="imgs/quest/2_54.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+			</div>
+			<div class="testItem hide">
+				<div class="testCont item">
+					<div class="quest_box">
+						<div class="quest">我通常要清洁:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist three playlist">
+						<li>
+							<img data-bk="imgs/video/311/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_11.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/312/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_12.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/313/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_13.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/314/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_14.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我通常要清洁:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist three playlist">
+						<li>
+							<img data-bk="imgs/video/321/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_21.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/322/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_22.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/323/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_23.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/324/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_24.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我通常要清洁:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist three playlist">
+						<li>
+							<img data-bk="imgs/video/331/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_31.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/332/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_32.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/333/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_33.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/334/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_34.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我通常要清洁:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist three playlist">
+						<li>
+							<img data-bk="imgs/video/341/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_41.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/342/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_42.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/343/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_43.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/344/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_44.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+				<div class="testCont item hide">
+					<div class="quest_box">
+						<div class="quest">我通常要清洁:</div>
+						<img src="imgs/quest/multi.png"/>
+					</div>
+					<ul class="answerlist three playlist">
+						<li>
+							<img data-bk="imgs/video/351/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_51.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/352/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_52.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/353/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_53.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/video/354/1.jpg" class="imgs lazy-bk" />
+							<img data-bk="imgs/quest/3_54.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<ul class="btns">
+						<li class="prev">上一步</li>
+						<li class="next">下一步</li>
+					</ul>
+				</div>
+			</div>
+			<div class="testItem hide">
+				<div class="testCont">
+					<div class="quest_box">
+						<div class="quest">我家是:</div>
+						<img src="imgs/quest/single.png"/>
+					</div>
+					<ul class="answerlist four">
+						<li>
+							<img data-bk="imgs/quest/41.jpg" class="imgs lazy-bk" />
+							<img src="imgs/quest/white2.png" class="layer"/>
+							<img data-bk="imgs/quest/4_1.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/42.jpg" class="imgs lazy-bk" />
+							<img src="imgs/quest/white2.png" class="layer"/>
+							<img data-bk="imgs/quest/4_2.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+						<li>
+							<img data-bk="imgs/quest/43.jpg" class="imgs lazy-bk" />
+							<img src="imgs/quest/white2.png" class="layer"/>
+							<img data-bk="imgs/quest/4_3.png" class="answer lazy-bk" />
+							<img class="mark tag" src="imgs/quest/unselect.png"/>
+						</li>
+					</ul>
+					<div class="btn prev">上一步</div>
+				</div>
+			</div>
+			<div id="num"></div>
+		</section>
+		
+		<!--loading tips page-->
+		<section class="sec load_tips hide lazy-bk" data-bk="imgs/loading.gif">
+			<div class="tipsBox">
+				极速匹配中
+				<img data-bk="imgs/matching.gif" class="matching lazy-bk" />		
+			</div>
+		</section>
+		
+		<!--product recommend page-->
+		<section class="sec pro_recom hide">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<canvas class="myImgs" id="showPro"></canvas>
+						<img id="info" class="info lazy-bk" data-bk="imgs/info.png"/>
+						<img id="product" class="resultImg hide" src=""/>
+						<img id="layer" class="resultImg hide" src=""/>
+						<div class="nextTxt">下滑了解更多</div>
+						<img class="nextPage lazy-bk" data-bk="imgs/arrow.png"/>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="banner" src="" alt="" />
+			        	<ul class="imglist">
+			        		<li><img class="pic" src=""/><div class="text"></div></li>
+			        		<li><img class="pic" src=""/><div class="text"></div></li>
+			        		<li><img class="pic" src=""/><div class="text"></div></li>
+			        		<li><img class="pic" src=""/><div class="text"></div></li>
+			        	</ul>
+			        </div>
+			    </div>
+			</div>
+			<ul class="btns">
+				<li id="reTest">再测一次</li>
+				<li id="take">立即入手</li>
+			</ul>
+		</section>
+		
+		<!--more info page-->
+		<div class="more hide">
+			<img id="close" class="close lazy-bk" data-bk="imgs/close.png" alt="close" />
+			<div class="infoCont">				
+				<p>1. 高效深层除螨：基于中国家用电器研究院在产品MAX（强效）模式下,在多层织物上进行的除螨测试结果，受制于实验条件，实验结果与实际使用可能会有不同。</p>
+				<p>2. 戴森无绳最强劲吸力：对比戴森V6、V7及V8无绳吸尘器。</p>
+				<p>3. 过敏原：指尘螨排泄物、花粉、霉菌、细菌、毛发等。</p>
+				<p>4. 30分钟：根据戴森内部测试确定，实际时长会因使用环境和方式而不同。不同吸头在非MAX强效模式下的运行时间为：非电动吸头运行30分钟；直驱式吸头、软绒滚筒吸头及电动床褥吸头运行20分钟。所有吸头在Max模式下运行时间高达6分钟。</p>
+				<p>5. 40分钟：根据戴森内部测试确定，实际时长会因使用环境和方式而不同。不同吸头在非MAX强效模式下的运行时间为：非电动吸头运行40分钟；软绒滚筒吸头及电动床褥吸头运行30分钟；升级版直驱式吸头25分钟。所有吸头在强效模式下运行时间高达7分钟。</p>
+				<p>6. 60分钟：根据戴森内部测试确定，实际时长会因使用环境和方式而不同。不同吸头在持久模式下的运行时间为：非电动吸头运行60分钟；电动床褥吸头运行45分钟；软绒滚筒吸头运行40分钟；升级版直驱式吸头35分钟。不同吸头在标准模式下的运行时间为：非电动吸头运行30分钟；升级版直驱式吸头、软绒滚筒吸头及电动床褥吸头运行20分钟。不同吸头在MAX强效模式下的运行时间为：非电动吸头运行5分钟；软绒滚筒吸头及电动床褥吸头运行8分钟；升级版直驱式吸头7分钟。</p>
+				<p>7. 99.97%：基于 ASTM F1977-04 测试标准。在符合规定的测试条件下，由第三方独立实验室进行的测试。测定真空吸尘器系统初始部分过滤效率的标准试验方法,通过整个吸尘器系统对非连续直径的 6 种颗粒物的过滤效率分析（0.3 微米，0.5 微米，0.7 微米，1.0 微米，2.0 微米以及 3.0 微米以上的颗粒），整个测试过程吸尘器系统置于固定状态，通过计数上游粒子与下游粒子数量用于分析及获得结果。测试环境：空气 温度（21.1°C ± 2.8°C）及湿度区间 35% – 55%。</p>
+				<p>以上数据资料除有明确表示出处外，均为戴森内部实验或收集。实际结果会因使用环境和方式而不同。</p>
+			</div>
+		</div>
+		
+		<div class="screentip hmiddle hide">
+		    <div class="subwrap">
+		        <div class="content">请直立您的手机以获得更好的体验。</div>
+		    </div>
+		</div>
+		
+	    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
